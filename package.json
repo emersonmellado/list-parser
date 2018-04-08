@@ -1,0 +1,24 @@
+{
+  "name": "smp.core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js | node_modules\\.bin\\faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonmellado/smp.core.git"
+  },
+  "author": "Emerson Mellado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersonmellado/smp.core/issues"
+  },
+  "homepage": "https://github.com/emersonmellado/smp.core#readme",
+  "dependencies": {
+    "faucet": "0.0.1",
+    "lodash": "^4.17.5",
+    "tape": "^4.9.0"
+  }
+}
