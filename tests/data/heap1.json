@@ -1,9 +1,11 @@
 {
     "metadata": {
-        "id": 1,
+        "userid": 1,
+        "access": 1,
         "name": "Heap 1 about something",
         "description": "Some description that can be relevant",
-        "updatedat": "2018-04-07"
+        "startDate": "2018-01-01",
+        "endDate": "2018-03-01"
     },
     "piles": [
         {

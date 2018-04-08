@@ -1,6 +1,6 @@
 "use strict"
-var test = require('tape');
-var Pile = require('../src/pile')
+let test = require('tape');
+let Pile = require('../src/pile')
 
 test('Create a pile successfully', (assert) => {
     let pile = {

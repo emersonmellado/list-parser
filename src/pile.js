@@ -1,9 +1,9 @@
 "use strict"
-let _ = require('lodash');
-let moment = require('moment');
+let Helper = require('./helper/helper')
 
 class Pile {
     constructor(pile) {
+        this.id = Helper.newGuid(),
         this.setDate(pile.date);
         this.setWhat(pile.what);
         this.where = pile.where;
@@ -11,9 +11,7 @@ class Pile {
         this.createdAt = new Date().getTime();
     }
     setDate(date){
-        if (!moment(date, moment.ISO_8601).isValid()){
-            throw `Invalid date ${date}`;
-        }
+        Helper.validateDate(date);
         this.date = date;
     }
     setWhat(what){

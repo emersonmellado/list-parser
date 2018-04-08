@@ -5,8 +5,8 @@ class Stack {
     constructor() {
         this.timeline = [];
     }
-    add(pile){
-        this.timeline = _.concat(this.timeline, this.sortByDate(pile));
+    addHeap(heap){
+        this.timeline = _.concat(this.timeline, this.sortByDate(heap.piles));
     }
     getTimeline(){
         return this.sortByDate(this.timeline);
