@@ -31,6 +31,7 @@ You might also think of these as being proper inclusions if you are familiar wit
 - stack ⊂ pile ⊂ heap
 
 This picture depicts these relationships.
+
 ![Relationship](relation.jpg "Relationship")
 
 # Stock vs Stack
@@ -44,3 +45,7 @@ You see, there are strings of words in English that are known as collocations—
 The noun phrase “stock knowledge” is clearly a strong collocation that consists of the noun “knowledge” modified by the adjective “stock” in the sense of “commonly used or often brought forward.” On the other hand, when looked upon as a noun phrase, “stack knowledge” doesn’t qualify as a collocation because it fails to convey a clear and identifiable meaning by association. Differentiating “stock knowledge” from “stack knowledge” is therefore like differentiating apples from desktop computers, which is clearly not a very meaningful exercise. 
 
 Indeed, “stack knowledge” won’t sound nonsensical only when we look at “stack” as a verb in the sense of “to arrange in an orderly pile or heap,” with “knowledge” as its direct object. We can then use “stack knowledge” in a sentence like, say, “The function of a computer’s hard disk is to stack knowledge in a memory bank for long-term storage.” This is a very unnatural-sounding sentence, of course, but we can make it semantically more precise by replacing the word “knowledge” with “information.” This time, the verb phrase “stack information” works very well because it’s a fairly strong collocation by itself.
+
+#References 
+[http://josecarilloforum.com/forum/index.php?topic=5929.0]
+[https://english.stackexchange.com/questions/79739/stack-vs-pile-vs-heap-of-paper#79753]
