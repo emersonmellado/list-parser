@@ -19,6 +19,7 @@
   "dependencies": {
     "faucet": "0.0.1",
     "lodash": "^4.17.5",
+    "moment": "^2.22.0",
     "tape": "^4.9.0"
   }
 }
