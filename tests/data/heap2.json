@@ -1,6 +1,7 @@
 {
     "metadata": {
-        "userid": 2,
+        "id": "2",
+        "userid": 1,
         "access": 1,
         "name": "Heap 2 about something",
         "description": "Heap 2 some description that can be relevant",
@@ -9,24 +10,28 @@
     },    
     "piles": [
         {
+            "id": "4345454",
             "date": "2018-01-02",
             "what": "A simple phrase 1.1",
             "where": "W11",
             "how": "H11"
         },
         {
+            "id": "556262",
             "date": "2018-02-01",
             "what": "A simple phrase 2.1",
             "where": "W21",
             "how": "H21"
         },
         {
+            "id": "62572525",
             "date": "2018-02-02",
             "what": "A simple phrase 2.2",
             "where": "W22",
             "how": "H22"
         },
         {
+            "id": "7257257245",
             "date": "2018-03-03",
             "what": "A simple phrase 3.1",
             "where": "W31",

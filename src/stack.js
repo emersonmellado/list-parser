@@ -5,14 +5,19 @@ class Stack {
     constructor() {
         this.timeline = [];
     }
-    addHeap(heap){
+    addHeap(heap) {
         this.timeline = _.concat(this.timeline, this.sortByDate(heap.piles));
     }
-    getTimeline(){
+    getTimeline() {
         return this.sortByDate(this.timeline);
     }
+    getByWhat(what) {
+        return _.find(this.getTimeline(), function (pile) {
+            return pile.what == what;
+        });
+    }
     sortByDate(arr) {
-        return _.sortBy(arr, [function (a) { 
+        return _.sortBy(arr, [function (a) {
             return a.date;
         }]);
     }
