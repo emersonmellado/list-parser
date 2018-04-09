@@ -1,17 +1,19 @@
 /*
  * SMP.Core
- * https://github.com/emerson.mellado/smp.core
+ * https://github.com/emersonmellado/smp.core
  *
  * Copyright 2018, Emerson Mellado
  * Licenced under the MIT licence
  *
  */
-let Stack = require('./stack');
-let Heap = require('./heap');
-let Pile = require('./pile');
-
+'use strict';
 (function () {
-    let smpcore = {
+
+    var Stack = require('./stack');
+    var Heap = require('./heap');
+    var Pile = require('./pile');
+
+    var smpcore = {
         stack: Stack,
         heap: Heap,
         pile: Pile
