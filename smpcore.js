@@ -9,9 +9,9 @@
 'use strict';
 (function () {
 
-    var Stack = require('./stack');
-    var Heap = require('./heap');
-    var Pile = require('./pile');
+    var Stack = require('./src/stack');
+    var Heap = require('./src/heap');
+    var Pile = require('./src/pile');
 
     var smpcore = {
         stack: Stack,
