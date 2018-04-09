@@ -1,11 +1,14 @@
 {
   "name": "smp.core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "smpcore.js",
   "scripts": {
     "test": "tape tests/**/*.js | node_modules\\.bin\\faucet"
   },
+  "files": [
+    "smpcore.js"
+  ],  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emersonmellado/smp.core.git"
