@@ -9,7 +9,7 @@
   "files": [
     "smpcore.js",
     "src/"
-  ],  
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emersonmellado/smp.core.git"
@@ -20,11 +20,12 @@
     "url": "https://github.com/emersonmellado/smp.core/issues"
   },
   "homepage": "https://github.com/emersonmellado/smp.core#readme",
-  "devDependencies":{
+  "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.9.0"
   },
   "dependencies": {
+    "firebase": "^4.12.1",
     "lodash": "^4.17.5",
     "moment": "^2.22.0"
   }
