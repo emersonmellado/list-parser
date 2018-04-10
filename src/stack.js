@@ -6,7 +6,8 @@ class Stack {
         this.timeline = [];
     }
     addHeap(heap) {
-        this.timeline = _.concat(this.timeline, this.sortByDate(heap.piles));
+        var piles = _.concat(this.timeline, this.sortByDate(heap.piles));
+        this.timeline = _.uniqBy(piles, (o) => o.id);
     }
     getTimeline() {
         return this.sortByDate(this.timeline);
